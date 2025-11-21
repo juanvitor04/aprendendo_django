@@ -11,7 +11,10 @@
         {% for entry in entries %}
             <li>
                 <p>{{ entry.date_added|date:"Y-m-d" }}</p>
-                <p>{{ entry.text|linebreaks }}</p>
+                <p>{{ entry.text | linebreaks }}</p>
+                <p>
+                    <a href="{% url 'edit_entry' entry.id %}">Editar anotação</a>
+                </p>
             </li>
         {% empty %}
             <li>Não há registro</li>
