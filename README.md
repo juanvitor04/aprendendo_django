@@ -41,12 +41,12 @@ Isso criará uma pasta chamada `venv` com um ambiente virtual isolado.
 
 ```bash
 source venv/bin/activate
-``
+```
 
 ### Windows (PowerShell)
 ```powerShell
 venv\Scripts\Activate
-``
+```
 
 Se der certo, o nome `(venv)` aparecerá no início da linha do terminal.
 
@@ -58,7 +58,7 @@ Se existir um arquivo `requirements.txt` no projeto:
 
 ```bash
 pip install -r requirements.txt
-``
+```
 
 
 ---
