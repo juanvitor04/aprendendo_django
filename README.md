@@ -15,7 +15,7 @@ Para verificar:
 
 ```bash
 python3 --version
-``
+```
 
 ```bash
 git --version
