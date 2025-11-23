@@ -11,6 +11,15 @@
     <title>Learning Log</title>
     {% bootstrap_css %}
     {% bootstrap_javascript %}
+    <style>
+        .ul-none ul{
+            display: none;
+        }
+        .help-block{
+            display: none;
+        }
+       
+    </style>
 </head>
 
 <body>
@@ -48,7 +57,7 @@
         </div>
     </nav>
     <div class="container">
-        <div>{% block header %}{% endblock header%}</div>
+        <div class="page-header">{% block header %}{% endblock header%}</div>
         <div>{% block content %}{% endblock content %}</div>
     </div>
 
