@@ -21,7 +21,13 @@ python3 --version
 git --version
 ```
 
-
+## 1. Clonar Repositório
+```bash
+git clone https://github.com/juanvitor04/django-notas.git
+```
+```bash
+cd django-notas
+```
 ---
 
 ## 🧱 2. Criar o ambiente virtual (venv)
